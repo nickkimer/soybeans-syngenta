@@ -1,0 +1,8 @@
+# soybeans-syngenta
+
+Commercialization of Soybean Seed Varieties
+
+
+The goal of this analysis was to help a biotech company called Syngenta select the soybean varieties that will be most productive upon commercialization. Syngenta products soybeans and commercializes them each year. Each soybean variety that makes it to the market has gone through a very selective process and passed a series of tests. Soybeans go through classes much like students in a school. Each year they are tested and only some will pass; the rest will be removed from consideration. After several years of testing, the soybean varieties reach a graduation year and a select percentage will be selected to finally be commercialized. Syngenta aims to commercialize only the one that will produce the best results for consumers. Therefore the main aim to this study is to use analytics to help Syngenta choose the best varieties and minimize false positives (seeds that test well and perform poorly). 
+
+We chose to build a deep learning model that would predict whether a variety should pass or not. However, we do not know which seeds passed in 2014 or which seeds should have passed. So we first built a model based on the data from 2009-2013 since we know how these varieties performed and if they were selected. We evaluated this model and got a sense of how the model performed when we used it to make our 2014 predictions. However, since we do not know which selection were the best ones in 2014 we do not know for sure how accurate our model was in predicting the best varieties. Lastly to make our sales volume predictions for the varieties we used past sales volume data and extrapolated the growth rates forward for each variety. 
